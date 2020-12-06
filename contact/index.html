@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TabaPro_Contact</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/contact.scss">
+  <link rel="stylesheet" href="../css/contact.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/db56b50a65.js" crossorigin="anonymous"></script>   
+</head>
+<body>
+  <header>
+    <div class="header">      
+      <div class="header-container">
+        <div class="site-logo">
+          <a href="../index.html">          
+            <img src="../img/logo3.png" alt="logo">
+          </a>
+        </div>
+        <div class="site-logo-black">
+          <a href="../index.html">          
+            <img src="../img/logo1.png" alt="logo">
+          </a>
+        </div>
+        <nav class="nav">
+          <ul class="nav-item">
+            <li class="nav-list"><a href="../about/index.html">About</a></li>
+            <li class="nav-list"><a href="#works">Works</a></li>
+            <li class="nav-list"><a href="./index.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>    
+  </header>
+  <main>
+    <section class="mv">
+      <div class="mv-img">        
+        <h1>Contact</h1>
+      </div>
+    </section>
+    <section class="contact-wrapper">      
+      <div class="contact-content">       
+        <p>制作の依頼・ご相談などお気軽にお問い合わせくださいませ。</p>
+        <p>下記フォームよりわかる範囲でご記入ください。必須の項目は必ずご記入お願いします。</p>
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdeXiV0hRf0DEjCXVeR8yHz4o5wfs1iMyTA-YZykeA9WALQfw/formResponse" class="form-wrapper">
+          <ul class="form-list">           
+            <li class="form-item">
+              <label for="name" class="form-label">お名前／会社名<span class="must">必須</span></label>
+              <input name="entry.1456644728" type="text" class="input-text" id="name" required>
+            </li>
+            <li class="form-item">
+              <label for="email" class="form-label">メールアドレス<span class="must">必須</span></label>
+              <input name="entry.1371466542" type="text" class="input-text" id="email" required>
+            </li>            
+            <li class="form-item">
+              <label for="inquiry" class="form-label">お問い合わせ内容<span class="must">必須</span></label>
+              <textarea name="entry.243096475" id="inquiry" cols="30" rows="10"></textarea>
+            </li>            
+          </ul>          
+          <input type="submit" value="送信" class="submit-btn">
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <small>
+      &copy TabaPro All rights reserved.
+    </small>    
+  </footer>    
+  <script src="../js/script.js"></script>    
+</body>
+</html>

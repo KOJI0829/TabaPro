@@ -1,0 +1,143 @@
+body {
+  font-family: 'Roboto', 'Noto Sans JP', sans-serif;  
+}
+.header {
+  width: 100%; 
+  position: fixed;
+  z-index: 1000;    
+}
+.header-container {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.site-logo {
+  width: 10%;  
+}
+.site-logo-black {
+  width: 10%;
+}
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list {
+  margin-left: 30px;
+  a {
+    color: #fff;
+  }
+}
+.nav.black {
+  .nav-list a {
+    color: #000;
+  }
+}
+// mv
+.mv-img {
+  background-image: url(../img/web_top.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  h1 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.08em;
+    font-size: 50px;
+    line-height: 400px;
+    text-shadow: 5px 5px 5px #7e7b7b;       
+  }
+}
+.contact-content {
+  width: 60%;
+  margin: 120px auto;  
+  padding: 0 30px;
+  p {
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    line-height: 1.9;    
+  }  
+}
+.form-wrapper {
+  margin-top: 50px;
+}
+.must {
+  background-color: #333333;
+  color: #fff;
+  margin-left: 20px;
+  padding: 2px 5px;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+}
+.form-item {
+  margin-top: 40px;
+}
+.input-text {
+  height: 40px;
+  margin-top: 8px;
+  padding: 0 5px;
+}
+textarea {
+  margin-top: 8px;
+  padding: 10px 10px;
+}
+.submit-btn {
+  display: block;
+  font-size: 16px;  
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  width: 150px;
+  margin: 50px auto 0;
+  padding: 15px 30px;
+  background-color: #c4c4c4;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #7e7b7b;
+  &:hover {
+    opacity: .7;
+    transition: .3s;
+  }
+}
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
+@media screen and (max-width: 768px){
+  .header-container {
+    padding: 20px 4vw;
+  }
+  .site-logo {
+    width: 25%;  
+  }
+  .site-logo-black {
+    width: 25%;
+  }
+  .nav-list {
+    margin-left: 10px;    
+  }  
+  // main-sp
+  .mv-img {  
+    h1 {    
+     font-size: 30px;              
+    }
+  }  
+  .contact-content {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 425px){
+  .contact-content {
+    width: 80%;
+    margin: 60px auto;  
+  }
+}
+@media screen and (max-width: 320px){
+  .mv-img {     
+    h1 {    
+      font-size: 25px;         
+    }
+  }
+}
